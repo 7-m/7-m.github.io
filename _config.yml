@@ -1,1 +1,19 @@
-theme: jekyll-theme-cayman
+name: 7-m's very own blog
+description: A safe haven for bugs at the price of being exposed
+meta_description: "The bug retirement home"
+
+markdown: kramdown
+highlighter: rouge
+logo: false
+paginate: 15
+baseurl: /
+domain_name: "http://www.mufaddal.dev"
+#google_analytics: "UA-XXXXXXXX-X"
+plugins: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url: ""
+author: "Mufaddal"
+
+# Disqus config
+#disqus-shortname: ""
