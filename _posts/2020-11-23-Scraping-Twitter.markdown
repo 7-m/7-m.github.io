@@ -13,7 +13,7 @@ Want to scrape a handful of tweets? but don't want to sign up for twitter develo
 - 10 minutes
 
 #### In brief
-1. `api.twitter.com/1.1/guest/activate.json to get the `x-guest-token` header
+1. `api.twitter.com/1.1/guest/activate.json` to get the `x-guest-token` header
 2. `api.twitter.com/2/timeline/profile/{rest_id}?count={numTweets}.json` to get the actual tweets
 3. `api.twitter.com/graphql/esn6mjj-y68fNAj45x5IYA/UserByScreenName?{"screen_name":"{userHandle}","withHighlightedLabel":false}` to get `rest_id` from a twitter handle
 4. `authentication` header for bearer token
